@@ -1,0 +1,200 @@
+.list-group-item {
+  line-height: 2.5;
+}
+/*this is for the background of the web pages and the background styling*/
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background: url("https://66.media.tumblr.com/f13be217d77f755e3bf96f0ca48290b8/tumblr_ppass2mxFd1trrzduo1_1280.jpg");
+  background-size: 100%;
+  min-height: 300px;
+}
+
+.bgimg-2 {
+  background-image: url("https://66.media.tumblr.com/f13be217d77f755e3bf96f0ca48290b8/tumblr_ppass2mxFd1trrzduo1_1280.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://66.media.tumblr.com/9c1993cb785fac838837cb60d2c87ea9/tumblr_ppasq8HERo1trrzduo1_1280.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+
+
+.signInBox {
+  padding: 50px;
+}
+.buttonstyle {
+  font-family: "Amatic SC", cursive;
+  font-size: 80px;
+  
+  
+}
+.buttonstyle2 {
+  font-family: "Amatic SC", cursive;
+  font-size: 50px;
+  margin-top:30px;
+  
+}
+
+.font1 {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  font-size: 120px;
+  
+}
+
+.font2 {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  font-size: 30px;
+}
+.font3 {
+  font-family: "Amatic SC", cursive;
+  text-align: left;
+  font-size: 30px;
+}
+.button {
+  border-radius: 4px;
+  border: none;
+  padding: 7px;
+  background-color: #28a745;
+  font-size: 23px;
+  font-family: "Caveat", cursive;
+  color: white;
+  width: 100%;
+}
+
+.button2 {
+  border-radius: 4px;
+  border: none;
+  padding: 7px;
+  background-color:#007bff;
+  font-size: 23px;
+  font-family: "Caveat", cursive;
+  color: white;
+  width: 100%;
+}
+
+.button3 {
+  border-radius: 4px;
+  border: none;
+  padding: 7px;
+  background-color: #d39e00;
+  font-size: 23px;
+  font-family: "Caveat", cursive;
+  color: white;
+  width: 100%;
+}
+
+.button4 {
+  border: none;
+  padding: 7px;
+  background-color: #28a745;
+  font-size: 23px;
+  font-family: "Caveat", cursive;
+  color: white;
+  font-stretch: expanded;
+  text-align: center;
+  
+}
+.leads {
+  font-size: 33px;
+  font-family: "Caveat", cursive;
+  text-align: center;
+
+}
+
+.bars {
+  background-color: #28a745;
+  border: transparent;
+}
+.fill {
+  background-color: #cfcbd3;
+}
+.jumbotron {
+  background: none
+}
+
+.form {
+  background-color: white;
+  padding: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+.title {
+  margin-left: 200px;
+  margin-right: 200px;
+  
+}
+
+.title2{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+
+/* .footer {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 100px;
+} */
+
+#map {
+  height: 425px;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
